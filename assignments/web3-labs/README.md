@@ -12,7 +12,8 @@ and do so in a nosana pipeline!
 Hardhat is an Ethereum development environment that provides an easy way to deploy smart contracts, 
 run tests and debug Solidity code locally.
 
-The goal of this exercise is to learn how you can let the commands you run locally to deploy your smart contract. 
+The goal of this exercise is to learn how you can let the commands you run locally
+deploy your smart contract with a CI/CD system.
 
 You're pipeline should at least contain the following components:
 
