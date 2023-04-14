@@ -73,3 +73,7 @@ jobs:
     commands:
       - npx hardhat compile
 ```
+
+## Step 2
+
+When that you're ready to start on [Step 2](./Step-2.md), the testing step.

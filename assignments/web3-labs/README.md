@@ -37,9 +37,9 @@ Notice the template [`.nosana-ci.yml`](../../.nosana-ci.yml) file in the root of
 This file contains placeholders for the most crucial stages of any software pipeline.
 Namely the (i) build, (ii) test, and (iii) deployment stage.
 
-2. Hop on over to https://app.nosana.io and connect your fresh repo to connect with the nosana network
+2. Hop on over to https://app.nosana.io and connect your fresh repo to the nosana network
 
-3. When done you're ready to start working on [Step 1](./Step-1.md)!
+3. When done you're ready to start on [Step 1](./Step-1.md)!
 
 ## Links
 
