@@ -80,4 +80,4 @@ When done, `add`, `commit` and `push` all your files to your repo, and see the C
 
 ## Step 2
 
-When that you're ready to start on [Step 2](./Step-2.md), the testing step.
+When that successfully runs, you're ready to start on [Step 2](./Step-2.md), the testing step.
