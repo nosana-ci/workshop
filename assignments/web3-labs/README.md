@@ -9,7 +9,7 @@ and do so in a nosana pipeline!
 
 ## Assignment overview
 
-Hardhat is an Ethereum development environment that provides an easy way to deploy smart contracts, 
+Hardhat is an Ethereum development environment that provides an easy way to deploy smart contracts,
 run tests and debug Solidity code locally.
 
 The goal of this exercise is to learn how you can let the commands you run locally
@@ -17,15 +17,15 @@ deploy your smart contract with a CI/CD system.
 
 You're pipeline should at least contain the following components:
 
-0. Inititial prep: Setup your automation engine
+0. Initial prep: Setup your automation engine
 1. Build step: Create and compile a simple smart contract
 2. Test step: Run tests
 3. Deploy step: The contract will be deployed on Matic's Mumbai Testnet
 
-### Inititial prep: setup your automation engine
+### Initial prep: setup your automation engine
 
-Disclaimer: this exercise can be done with any CI provider. 
-However, most steps are focussed on implemention with the [Nosana Network](https://nosana.io/).
+Disclaimer: this exercise can be done with any CI provider.
+However, most steps are focussed on implementation with the [Nosana Network](https://nosana.io/).
 If you would like to implement this with alternative providers,
 feel free to implement to forthcoming steps in the respective provider config files.
 
@@ -37,7 +37,9 @@ Notice the template [`.nosana-ci.yml`](../../.nosana-ci.yml) file in the root of
 This file contains placeholders for the most crucial stages of any software pipeline.
 Namely the (i) build, (ii) test, and (iii) deployment stage.
 
-2. Hop on over to https://app.nosana.io and connect your fresh repo to initiate a pieline
+2. Hop on over to https://app.nosana.io and connect your fresh repo to connect with the nosana network
+
+3. When done you're ready to start working on [Step 1](./Step-1.md)!
 
 ## Links
 
