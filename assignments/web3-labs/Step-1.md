@@ -67,12 +67,16 @@ npx hardhat compile
 
 Now it's time to automatically build this contract in our ci engine.
 
+For this you need to change your `.nosana-ci.yml` file with something like the below.
+
 ```yaml
 jobs:
   - name: build
     commands:
       - npx hardhat compile
 ```
+
+When done, `add`, `commit` and `push` all your files to your repo, and see the CI engine take over!
 
 ## Step 2
 
