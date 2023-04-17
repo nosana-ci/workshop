@@ -51,6 +51,7 @@ jobs:
     artifacts:
       - name: node_modules
       - name: artifacts
+      - name: cache
         
   - name: test
     environment:
@@ -60,6 +61,7 @@ jobs:
     resources:
       - name: node_modules
       - name: artifacts
+      - name: cache
 ```
 
 When done, `add`, `commit` and `push` all your files to the repo again.

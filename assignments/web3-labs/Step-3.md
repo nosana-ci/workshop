@@ -85,6 +85,7 @@ jobs:
     resources:
       - name: node_modules
       - name: artifacts
+      - name: cache
 ```
 
 **NOTE:**  The `PRIVATE_KEY` has to be added securely in the CI platform, and not put in code. 

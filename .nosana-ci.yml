@@ -1,6 +1,6 @@
 # .nosana-ci.yml
 nosana:
-  description: Build, Test and Deploy software
+  description: Build, Test and Deploy dApps!
 
 global:
   image: alpine
@@ -10,7 +10,6 @@ global:
         - main
 
 jobs:
-
   - name: build
     commands:
       - echo "building..."
