@@ -14,7 +14,6 @@ import "@nomicfoundation/hardhat-toolbox";
 
 const config: HardhatUserConfig = {
   solidity: "0.8.18",
-  defaultNetwork: "polygon_mumbai",
   networks: {
     polygon_mumbai: {
       url: "https://rpc-mumbai.maticvigil.com",
@@ -64,7 +63,7 @@ jobs:
     SECRETS:
       - PRIVATE_KEY
     commands:
-      - npx hardhat run scripts/deploy.ts
+      - npx hardhat run scripts/deploy.ts --network polygon_mumbai
     resources:
       - name: node_modules
       - name: artifacts
