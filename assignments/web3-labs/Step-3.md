@@ -48,7 +48,7 @@ export PRIVATE_KEY=5ae4655bbd427f5fa5f57696f6dc6a90d7aa758489f884e39d1a44943104b
 npx hardhat run scripts/deploy.ts
 ```
 
-And you should get a deployed progam!
+And you should see your program being deployed!
 
 ```
 Lock with 0.001ETH and unlock timestamp 1681729208 deployed to 0xC279D9967FA0D3F9794a7CAa10B97a8Df35BA973
