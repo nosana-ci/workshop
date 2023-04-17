@@ -60,7 +60,7 @@ Let's automate this final step in our CI platform.
 ```yaml
 jobs:
   - name: deploy
-    SECRETS:
+    secrets:
       - PRIVATE_KEY
     commands:
       - npx hardhat run scripts/deploy.ts --network polygon_mumbai
