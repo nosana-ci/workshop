@@ -73,8 +73,11 @@ For this you need to change your `.nosana-ci.yml` file with something like the b
 jobs:
   - name: build
     commands:
-      - npx hardhat compile
+      - npm ci
+      - npx hardhat compile 
 ```
+
+**HINT:** for `image` choose [node](https://hub.docker.com/_/node), e.g. `node:19`
 
 When done, `add`, `commit` and `push` all your files to your repo, and see the CI engine take over!
 
