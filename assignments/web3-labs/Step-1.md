@@ -77,7 +77,7 @@ jobs:
       - npx hardhat compile 
 ```
 
-**HINT:** for `image` choose [node](https://hub.docker.com/_/node), e.g. `node:19`
+**HINT:** for `image` choose [node](https://hub.docker.com/_/node), e.g. `node:16`
 
 When done, `add`, `commit` and `push` all your files to your repo, and see the CI engine take over!
 
