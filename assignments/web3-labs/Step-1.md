@@ -20,7 +20,7 @@ We recommend using TypeScript, but if you are not familiar with it just pick Jav
 
 Next, if you take a look in the `contracts/` folder, you'll see `Lock.sol`:
 
-```
+```solidity
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 

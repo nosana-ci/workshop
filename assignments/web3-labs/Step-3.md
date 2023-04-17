@@ -1,12 +1,12 @@
 # Step 3. Deploy step: The contract will be deployed on Matic's Mumbai Testnet
 
-Now that we have our smart contract compiled, and tested, it's time to deploy it! 🚀
+Now that we have our smart contract compiled and tested, it's time to deploy it! 🚀
 
 ## Deploying your contracts
 
 Next, to deploy the contract we will use a Hardhat script.
 
-First let's change the `hardhat.config.ts` to the following:
+First let's change the `hardhat.config.ts` to use Mumbai's testnet:
 
 ```typescript
 import { HardhatUserConfig } from "hardhat/config";
