@@ -8,6 +8,8 @@ Next, to deploy the contract we will use a Hardhat script.
 
 First let's change the `hardhat.config.ts` to use Mumbai's testnet:
 
+#### TypesScript
+
 ```typescript
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
@@ -23,6 +25,22 @@ const config: HardhatUserConfig = {
 }
 
 export default config;
+```
+
+#### JavaScript
+
+```javascript
+require("@nomicfoundation/hardhat-toolbox");
+
+module.exports = {
+  solidity: "0.8.18",
+  networks: {
+    polygon_mumbai: {
+      url: "https://rpc-mumbai.maticvigil.com",
+      accounts: [process.env.PRIVATE_KEY || '0'.repeat(64)]
+    }
+  }
+}
 ```
 
 Notice the environment variable used in this configuration?
