@@ -13,42 +13,31 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
 const config: HardhatUserConfig = {
+  solidity: "0.8.18",
   defaultNetwork: "polygon_mumbai",
   networks: {
-    hardhat: {
-    },
     polygon_mumbai: {
       url: "https://rpc-mumbai.maticvigil.com",
       accounts: [process.env.PRIVATE_KEY]
     }
-  },
-  solidity: {
-    version: "0.8.9",
-    settings: {
-      optimizer: {
-        enabled: true,
-        runs: 200
-      }
-    }
-  },
+  }
 }
 
 export default config;
 ```
 
-Notice the two environment variables used in this configuration?
+Notice the environment variable used in this configuration?
 
-To deploy our tested smarkt contract we need to set `PRIVATE_KEY`, and `POLYGONSCAN_API_KEY`.
+To deploy our tested smart contract we need to set `PRIVATE_KEY`.
 
 ### Private key
 
-We need a funded test wallet for testing.
-This test key should be a new keypair.
-Follow below steps to generate really quickly
+We need a funded test wallet for testing, and this can be a new keypair.
+Follow below steps to generate one:
 
 1. `openssl rand -hex 32` will generate a new key.
 2. Get its public key by importing to your favorite wallet
-3. Get some Mumbai `MATIC` over at https://faucet.polygon.technology/
+3. Get some Mumbai `MATIC` send to the public key over at https://faucet.polygon.technology/
 
 Inside the `scripts/` folder you will find a file called `deploy.ts` which will deploy your contract.
 
@@ -82,7 +71,9 @@ jobs:
 ```
 
 **NOTE:**  The `PRIVATE_KEY` has to be added securely in the CI platform, and not put in code. 
-Go over to https://app.nosana.io and the test private key generated above as a secret named `PRIVATE_KEY`.
+Go to https://app.nosana.io and input the test private key generated above as a secret named `PRIVATE_KEY`.
+
+When that is done everything should run automatically and each commit will deploy your contract to testnet.
 
 ## Bonus points
 
@@ -90,7 +81,7 @@ Add Polygonscan API key to verify the contract on Polygonscan.
 You can generate an API key by [creating an account](https://polygonscan.com/register).
 
 Add something like the below to your hardhat configuration file,
-and don't forget to add the `POLYGONSCAN_API_KEY` secret in the CI app. 
+and don't forget to add the `POLYGONSCAN_API_KEY` secret in the CI app.
 
 ```typescript
 etherscan: {
