@@ -1,4 +1,4 @@
-# Step 3. Deploy step: The contract will be deployed on Matic's Mumbai Testnet
+# Step 3. Deploy step: The contract will be deployed on Matic's Mumbai testnet
 
 Now that we have our smart contract compiled and tested, it's time to deploy it! 🚀
 

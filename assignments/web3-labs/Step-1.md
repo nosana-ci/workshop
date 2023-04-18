@@ -6,7 +6,7 @@ As mentioned, we're going to do so with the use of [Hardhat](https://hardhat.org
 
 ## Quick Start
 
-Let's start out by creating a sample project in the root if this repo:
+Let's start out by creating a sample project in the root of this repo:
 
 ```shell
 npx hardhat
@@ -65,9 +65,9 @@ npx hardhat compile
 
 ## Automate your pipeline
 
-Now it's time to automatically build this contract in our ci engine.
+Now it's time to automatically build this contract in our CI engine.
 
-For this you need to change your `.nosana-ci.yml` file with something like the below.
+For this you need to change your `.nosana-ci.yml` file with something like the below:
 
 ```yaml
 jobs:
