@@ -15,7 +15,7 @@ run tests and debug Solidity code locally.
 The goal of this exercise is to learn how you can let the commands you run locally
 deploy your smart contract with a CI/CD system.
 
-Your pipeline should at least contain the following components:
+You're pipeline should at least contain the following components:
 
 0. Initial prep: Setup your automation engine
 1. Build step: Create and compile a simple smart contract
@@ -25,7 +25,7 @@ Your pipeline should at least contain the following components:
 ### Initial prep: setup your automation engine
 
 Disclaimer: this exercise can be done with any CI provider.
-However, most steps are focussed on implementation with [Nosana](https://nosana.io/).
+However, most steps are focussed on implementation with the [Nosana Network](https://nosana.io/).
 If you would like to implement this with alternative providers,
 feel free to implement to forthcoming steps in the respective provider config files.
 
