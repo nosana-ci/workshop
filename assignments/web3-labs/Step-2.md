@@ -1,6 +1,6 @@
 # Step 2. Test step: Run tests
 
-Now that we have our smart contract compiled, it's time to test it's functionality! 🕵️‍♂️
+Now that we have our smart contract compiled, it's time to test its functionality! 🕵️‍♂️
 
 ## Testing your contracts
 
@@ -66,7 +66,7 @@ jobs:
 
 When done, `add`, `commit` and `push` all your files to the repo again.
 This will trigger a new pipeline again over at https://app.nosana.io
-Each time you make a change in the contract and commit it to this repository: the contract will automatically be tested!
+Each time you make a change in the contract and commit it to this repository, the contract will automatically be tested!
 Nice job!
 
 ## Step 3

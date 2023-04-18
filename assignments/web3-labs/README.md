@@ -1,26 +1,26 @@
 # Web3 Labs
 
 Welcome to the Web3 Labs assignment!
-In this workshop you'll learn how to automate your Solidity Contract deployment
+In this workshop you'll learn how to automate the deployment of Solidity contracts
 on the Polygon test network.
 
-We'll go over core components of any pipeline, apply those with Hardhat tooling,
-and do so in a nosana pipeline!
+We'll go over core pipeline components, apply tthem with Hardhat tooling,
+and do so in a Nosana pipeline!
 
 ## Assignment overview
 
 Hardhat is an Ethereum development environment that provides an easy way to deploy smart contracts,
 run tests and debug Solidity code locally.
 
-The goal of this exercise is to learn how you can let the commands you run locally
-deploy your smart contract with a CI/CD system.
+The goal of this exercise is to learn how to use a CI/CD system to deploy your smart contract using
+commands you run locally.
 
-You're pipeline should at least contain the following components:
+Your pipeline should at the very least contain the following components:
 
-0. Initial prep: Setup your automation engine
-1. Build step: Create and compile a simple smart contract
-2. Test step: Run tests
-3. Deploy step: The contract will be deployed on Matic's Mumbai Testnet
+0. Initial prep: setup your automation engine
+1. Build step: create and compile a simple smart contract
+2. Test step: run tests
+3. Deploy step: the contract will be deployed on Matic's Mumbai testnet
 
 ### Initial prep: setup your automation engine
 
@@ -37,7 +37,7 @@ Notice the template [`.nosana-ci.yml`](../../.nosana-ci.yml) file in the root of
 This file contains placeholders for the most crucial stages of any software pipeline.
 Namely the (i) build, (ii) test, and (iii) deployment stage.
 
-2. Hop on over to https://app.nosana.io and connect your fresh repo to the nosana network
+2. Hop on over to https://app.nosana.io and connect your fresh repo to the Nosana network
 
 3. When done you're ready to start on [Step 1](./Step-1.md)!
 
