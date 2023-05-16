@@ -8,7 +8,7 @@ Next, to deploy the contract we will use a Hardhat script.
 
 First let's change the `hardhat.config.ts` to use Mumbai's testnet:
 
-#### TypesScript
+### TypesScript
 
 ```typescript
 import { HardhatUserConfig } from "hardhat/config";
@@ -27,7 +27,7 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
-#### JavaScript
+### JavaScript
 
 ```javascript
 require("@nomicfoundation/hardhat-toolbox");
@@ -47,14 +47,14 @@ Notice the environment variable used in this configuration?
 
 To deploy our tested smart contract we need to set `PRIVATE_KEY`.
 
-### Private key
+## Private key
 
 We need a funded test wallet for testing, and this can be a new keypair.
 Follow below steps to generate one:
 
 1. `openssl rand -hex 32` will generate a new key.
 2. Get its public key by importing to your favorite wallet
-3. Get some Mumbai `MATIC` send to the public key over at https://faucet.polygon.technology/
+3. Get some Mumbai `MATIC` send to the public key over at <https://faucet.polygon.technology/>
 
 Inside the `scripts/` folder you will find a file called `deploy.ts` which will deploy your contract.
 
@@ -67,7 +67,7 @@ npx hardhat run scripts/deploy.ts
 
 And you should see your program being deployed!
 
-```
+```bash
 Lock with 0.001ETH and unlock timestamp 1681729208 deployed to 0xC279D9967FA0D3F9794a7CAa10B97a8Df35BA973
 ```
 
@@ -88,14 +88,14 @@ jobs:
       - name: cache
 ```
 
-**NOTE:**  The `PRIVATE_KEY` has to be added securely in the CI platform, and not put in code. 
-Go to https://app.nosana.io and input the test private key generated above as a secret named `PRIVATE_KEY`.
+**NOTE:**  The `PRIVATE_KEY` has to be added securely in the CI platform, and not put in code.
+Go to <https://app.nosana.io> and input the test private key generated above as a secret named `PRIVATE_KEY`.
 
 When that is done everything should run automatically and each commit will deploy your contract to testnet.
 
 ## Bonus points
 
-Add Polygonscan API key to verify the contract on Polygonscan. 
+Add Polygonscan API key to verify the contract on Polygonscan.
 You can generate an API key by [creating an account](https://polygonscan.com/register).
 
 Add something like the below to your hardhat configuration file,

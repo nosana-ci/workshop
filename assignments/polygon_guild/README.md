@@ -1,10 +1,10 @@
-# Web3 Labs
+# Polygon Guild
 
-Welcome to the Web3 Labs assignment!
-In this workshop you'll learn how to automate the deployment of Solidity contracts
+Welcome to the Polygon Guild assignment!
+In this workshop, you'll learn how to automate the deployment of Solidity contracts
 on the Polygon test network.
 
-We'll go over core pipeline components, apply tthem with Hardhat tooling,
+We'll go over core pipeline components, apply them with Hardhat tooling,
 and do so in a Nosana pipeline!
 
 ## Assignment overview
@@ -32,16 +32,15 @@ feel free to implement to forthcoming steps in the respective provider config fi
 For now, let's start with setting up the engine!
 
 1. Fork this repository into your own development environment.
-
 Notice the template [`.nosana-ci.yml`](../../.nosana-ci.yml) file in the root of this repository.
 This file contains placeholders for the most crucial stages of any software pipeline.
-Namely the (i) build, (ii) test, and (iii) deployment stage.
+Namely, the (i) build, (ii) test, and (iii) deployment stage.
 
-2. Hop on over to https://app.nosana.io and connect your fresh repo to the Nosana network
+2. Hop on over to <https://app.nosana.io> and connect your fresh repo to the Nosana network
 
 3. When done you're ready to start on [Step 1](./Step-1.md)!
 
 ## Links
 
-- https://docs.nosana.io/pipelines/intro.html
-- https://wiki.polygon.technology/docs/develop/hardhat
+- <https://docs.nosana.io/pipelines/intro.html>
+- <https://wiki.polygon.technology/docs/develop/hardhat>
