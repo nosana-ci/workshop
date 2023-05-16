@@ -11,7 +11,7 @@ The [assignments](./assignments) directory contains the various workshops.
 
 The following assignments can be found in this collection:
 
-### [Web3 Labs](./assignments/web3-labs)
+### [Polygon Guild](./assignments/web3-labs)
 
 A simple example of automating the deployment of a Polygon contract.
 
