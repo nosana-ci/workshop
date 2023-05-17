@@ -14,11 +14,12 @@ jobs:
     commands:
       - echo "building..."
       - pwd
+      - ls -lah
       - npm ci
       - npm run compile
     artifacts:
       - name: node_modules
-        path: /root/nosana-ci/node-modules/
+        path: node_modules/
 
   - name: test
     environment:
