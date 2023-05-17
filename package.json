@@ -3,7 +3,7 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
-    "deploy": "npx hardhat run scripts/deploy.ts --network mumbai"
+    "deploy": "npx hardhat run scripts/deploy.ts --network polygon_mumbai"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
