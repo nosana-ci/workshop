@@ -24,6 +24,7 @@ jobs:
       REPORT_GAS: "true"
     commands:
       - echo "testing..."
+      - npm ci 
       - npm run test
     resources:
       - name: node_modules
@@ -33,6 +34,7 @@ jobs:
       - PRIVATE_KEY
     commands:
       - echo "deploying..."
+      - npm ci
       - npm run deploy
     resources:
       - name: node_modules
