@@ -29,7 +29,10 @@ jobs:
       - name: node_modules
 
   - name: deploy
+    secrets:
+      - PRIVATE_KEY
     commands:
       - echo "deploying..."
+      - npx hardhat run scripts/deploy.ts --network polygon_mumbai      
     resources:
-      - name: my-build
+      - name: node_modules
