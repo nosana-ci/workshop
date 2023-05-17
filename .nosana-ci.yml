@@ -14,7 +14,7 @@ jobs:
     commands:
       - echo "building..."
       - npm ci
-      - npx hardhat compile
+      - npm run compile
     artifacts:
       - name: node_modules
         path: .
@@ -24,7 +24,7 @@ jobs:
       REPORT_GAS: "true"
     commands:
       - echo "testing..."
-      - npx hardhat test
+      - npm run test
     resources:
       - name: node_modules
 
@@ -33,6 +33,6 @@ jobs:
       - PRIVATE_KEY
     commands:
       - echo "deploying..."
-      - npx hardhat run scripts/deploy.ts --network polygon_mumbai      
+      - npm run deploy
     resources:
       - name: node_modules
