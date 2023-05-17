@@ -1,0 +1,29 @@
+# .nosana-ci.yml
+nosana:
+  description: Build, Test and Deploy dApps!
+
+global:
+  image: alpine
+  trigger:
+    push:
+      branches:
+        - main
+
+jobs:
+  - name: build
+    commands:
+      - echo "building..."
+    artifacts:
+      - name: my-build
+
+  - name: test
+    commands:
+      - echo "testing..."
+    resources:
+      - name: my-build
+
+  - name: deploy
+    commands:
+      - echo "deploying..."
+    resources:
+      - name: my-build
