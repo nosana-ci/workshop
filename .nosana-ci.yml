@@ -15,7 +15,6 @@ jobs:
       - echo "building..."
     artifacts:
       - name: my-build
-        path: .
 
   - name: test
     commands:
