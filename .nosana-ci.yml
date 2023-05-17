@@ -3,7 +3,7 @@ nosana:
   description: Build, Test and Deploy dApps!
 
 global:
-  image: node
+  image: node:16
   trigger:
     push:
       branches:
