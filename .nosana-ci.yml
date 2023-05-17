@@ -17,7 +17,7 @@ jobs:
       - npm run compile
     artifacts:
       - name: node_modules
-        path: ./node_modules/
+        path: /root/nosana-ci/node-modules/
 
   - name: test
     environment:
