@@ -3,7 +3,7 @@ nosana:
   description: Build, Test and Deploy dApps!
 
 global:
-  image: alpine
+  image: node
   trigger:
     push:
       branches:
