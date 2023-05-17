@@ -13,6 +13,8 @@ jobs:
   - name: build
     commands:
       - echo "building..."
+      - npm ci
+      - npx hardhat compile
     artifacts:
       - name: my-build
         path: .
