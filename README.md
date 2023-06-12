@@ -14,3 +14,7 @@ The following assignments can be found in this collection:
 ### [Polygon Guild](./assignments/polygon_guild)
 
 A simple example of automating the deployment of a Polygon contract.
+
+### [Super Team](./assignments/super_team/)
+
+An example of automating the deployment of a Solana Hello World program.
