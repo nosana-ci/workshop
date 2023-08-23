@@ -1,6 +1,6 @@
 # Super Team
 
-Welcome to the Super Team assignment!
+Welcome to the Hacker House assignment!
 In this workshop, you'll learn how to automate the deployment of Solana Programs on Solana Devnet.
 
 We'll go over core pipeline components, apply them with Solana tooling and do so in a Nosana pipeline!
