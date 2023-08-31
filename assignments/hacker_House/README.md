@@ -1,4 +1,4 @@
-# Super Team
+# Hacker House
 
 Welcome to the Hacker House assignment!
 In this workshop, you'll learn how to automate the deployment of Solana Programs on Solana Devnet.
@@ -13,14 +13,14 @@ The goal of this exercise is to learn how to use a CI/CD system to deploy your o
 
 Your pipeline should at the very least contain the following components:
 
-0. Initial prep: setup your automation engine
-1. Build step: create and compile a simple Solana Hello World program
-2. Test step: run tests
+0. Initial prep: Setup your automation engine
+1. Build step: Create and compile a simple Solana Hello World program
+2. Test step: Run tests
 3. Deploy step: Deploying the Solana program to devnet
 
 ### Initial prep: Setup your automation engine
 
-Disclaimer: this exercise can be done with any CI provider.
+Disclaimer: This exercise can be done with any CI provider.
 However, most steps are focussed on implementation with the [Nosana Network](https://nosana.io/).
 If you would like to implement this with alternative providers,
 feel free to implement to forthcoming steps in the respective provider config files.
