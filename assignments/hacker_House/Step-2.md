@@ -4,7 +4,7 @@ Now that we have our Solana Program compiled, it's time to test its functionalit
 
 ## Testing your contracts
 
-The Solana Hello World repo comes with tests already implemented. 
+The Solana Hello World repo comes with tests already implemented.
 You will be able to find them in the `src/program-rust/tests` of the repo.
 
 You can run tests with:
