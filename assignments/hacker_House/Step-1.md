@@ -89,4 +89,4 @@ image: nosana/solana
 
 ## Step 2
 
-When that succesfull runs, youre' ready to start on [Step 2](./Step-1.md), the testing step.
+When that succesfull runs, youre' ready to start on [Step 2](./Step-2.md), the testing step.
