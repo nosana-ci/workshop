@@ -11,7 +11,23 @@ You can run tests with:
 
 ```bash
 npm run test:program-rust
+
+**NOTE**```
+
+You will need to quickly update the `package.json` file to make sure you run the correct command.
+Go to line 22 of `package.json` and change:
+
+```json
+"test:program-rust": "cargo test-bpf --manifest-path=./src/program-rust/Cargo.toml",
 ```
+
+to
+
+```json
+"test:program-rust": "cargo test --manifest-path=./src/program-rust/Cargo.toml",
+```
+
+So just remove the `-bpf` from the command!
 
 The output of the tests should look something like this:
 
