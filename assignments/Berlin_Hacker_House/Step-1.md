@@ -28,20 +28,21 @@ jobs:
   - name: build
     commands:
       - echo "building..."
+      - mkdir dist
     artifacts:
-      - name: my-build
+      - name: dist
 
   - name: test
     commands:
       - echo "testing..."
     resources:
-      - name: my-build
+      - name: dist
 
   - name: deploy
     commands:
       - echo "deploying..."
     resources:
-      - name: my-build
+      - name: dist
 ```
 
 Here we can already get a sneak peek of our pipeline. Where we define the container (`alpine`)that we will be using to run our commands in, and the different steps for this pipeline.
@@ -73,8 +74,8 @@ For this we need to change the `.nosana-ci.yml` file with the following snippet:
 
 ```yaml
 jobs:
-    - name: build
-      commands:
+  - name: build
+    commands:
         - npm ci
         - npm run build:program-rust
 ``
