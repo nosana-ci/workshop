@@ -15,6 +15,6 @@ The following assignments can be found in this collection:
 
 A simple example of automating the deployment of a Polygon contract.
 
-### [Hacker House Berlin](./assignments/hacker_House/)
+### [Hacker House Berlin](./assignments/Berlin_Hacker_House/)
 
 An example of automating the deployment of a Solana Hello World program.

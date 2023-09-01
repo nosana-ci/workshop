@@ -11,8 +11,11 @@ You can run tests with:
 
 ```bash
 npm run test:program-rust
+```
 
-**NOTE**```
+---
+
+**NOTE**
 
 You will need to quickly update the `package.json` file to make sure you run the correct command.
 Go to line 22 of `package.json` and change:
@@ -28,6 +31,8 @@ to
 ```
 
 So just remove the `-bpf` from the command!
+
+---
 
 The output of the tests should look something like this:
 
@@ -56,7 +61,7 @@ Now that we know which command to use to run our tests, it's time agin to automa
 In order to get this to work, you'll need to move along the compiled artifact that you created in the last step. This will help speed up your pipeline.
 
 ```yaml
-jobs:
+# jobs:
   - name: build
     commands:
       - npm ci
