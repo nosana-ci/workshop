@@ -61,7 +61,7 @@ Now that we know which command to use to run our tests, it's time agin to automa
 In order to get this to work, you'll need to move along the compiled artifact that you created in the last step. This will help speed up your pipeline.
 
 ```yaml
-# jobs:
+jobs:
   - name: build
     commands:
       - npm ci
