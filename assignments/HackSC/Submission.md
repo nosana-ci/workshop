@@ -30,7 +30,11 @@ Go to [github.com/nosana-ci/workshop](https://github.com/nosana-ci/workshop) to 
 
 ![Fork](./assets/fork.png)
 
-## **2. Download the Jupyter Notebook**
+## **2. Save and Download the Jupyter Notebook**
+
+Remember to Save your `nosana_workshop.ipynb` file before downloading it.
+
+![Save Notebook](./assets/save_ipynb.png)
 
 When you are ready to hand in your work, please download your Jupyter Notebook, the `nosana_workshop.ipynb` file.
 
