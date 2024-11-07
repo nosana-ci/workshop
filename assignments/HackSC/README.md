@@ -23,11 +23,6 @@ Before you begin, ensure you have the following:
 - Basic understanding of Python and Machine Learning concepts.
 - [Telegram (Required)](https://telegram.org/)
 - [Git (Required)](https://git-scm.com/downloads)
-- [Hugging Face Account (Required)](https://huggingface.co/)
-- [Node.JS (optional)](https://nodejs.org/en)
-- [Nosana-CLI (optional)](https://github.com/nosana-ci/nosana-cli/)
-- [Python (optional)](https://www.python.org/)
-- [Jupyter Lab (optional)](https://jupyter.org/install)
 
 For detailed instructions on how to install these dependencies please take a look at [Prerequisites.md](./Prerequisites.md) 
 
