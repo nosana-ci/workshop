@@ -76,9 +76,12 @@ The NosJobBot, will now be your friend, start off:
    You'll be provided with an URL that you can navigate to, to and get started working on your project.
 4. Navigate to this endpoint to get started with your Jupyter Notebook.
 5. The Jupyter Notebook will only be available for 2 hours, so be wary and save your data when needed!
-6. Make sure you first save the notebook `File > Save Notebook`
-7. Afterwards we can download the notebook by going to `File > Download`, it will be saved as `nosana_workshop.ipynb`
-8. When running a new Jupyter instance, you can continue with your old file, by uploading it
+
+### Saving your progress
+
+1. Make sure you first save the notebook `File > Save Notebook`
+2. Afterwards we can download the notebook by going to `File > Download`, it will be saved as `nosana_workshop.ipynb`
+3. When running a new Jupyter instance, you can continue with your old file, by uploading it
    - Start by going to `File > Close and Shutdown Notebook`
    - In the files overview, click `upload`, and upload your last saved `nosana_workshop.ipynb` file
 
@@ -86,26 +89,15 @@ The NosJobBot, will now be your friend, start off:
 
 In the notebook, you'll:
 
-- Load and preprocess your dataset.
-- Configure model parameters for fine-tuning.
-- Use Nosana's GPUs to accelerate the inferencing process
-
-## Usage
-
-- **Generate Self-Portraits:**
-  - Upload a photo or use your webcam to capture an image.
-  - Click on "Generate" to create a personalized self-portrait.
-
-
+- Load and preprocess your dataset
+- Configure model parameters for fine-tuning
+- Use Nosana's GPUs to accelerate the LoRA fine-tuning process
+- Generate your own finetuned model to create custom themed images
 
 ## Troubleshooting
 
-- **Common Issues:**
-  - *Jupyter Notebook won't start:* Ensure Nosana CLI is installed and configured correctly.
-  - *Module not found errors:* Double-check that all dependencies are installed.
 - **Getting Help:**
-  - Open an issue on this repository.
-  - Reach us at our [HackSC x Nosana Telegram Group](https://t.me/nosana_hacksc)
+  - Reach us at the [HackSC x Nosana Discord Channel](https://discord.com/channels/1298818387484610571/1303604638573924424)
 
 
 ## Acknowledgments
