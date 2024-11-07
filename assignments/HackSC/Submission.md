@@ -27,13 +27,20 @@ Clearly outline what each team must include in their submission:
 
 ### **Hackathon Submission Plan**
 
-#### **1. Cloning the Repository**
+## **1. Forking the Repository**
 
-All students will begin by cloning the entire repository to ensure they have the latest structure and all necessary files:
-```bash
-git clone https://github.com/djmbritt/workshop/tree/hacksc
-cd assignments/HackSC
-```
+All students will be begin by forking the repository.
+Go to [github.com/nosana-ci/workshop](https://github.com/nosana-ci/workshop) to `Fork` the repository to your GitHub account.
+
+![Fork](./assets/fork.png)
+
+## **2. Download the Jupyter Notebook**
+
+When you are ready to hand in your work, please download your Jupyter Notebook, the `nosana_workshop.ipynb` file.
+
+![Download your Jupyter Notebook](./assets/jup_notebook_save.png)
+
+
 
 #### **2. Submitting, by Pull Request**
 
