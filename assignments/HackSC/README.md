@@ -74,6 +74,7 @@ Here’s how to use it:
    - You’ll receive a unique URL to access your notebook.
 4. Open the URL and start working on your project.
 5. **Important:** Your notebook instance will be active for only **2 hours**, so save your work regularly!
+6. **Advisory:** If your notebook fails, and you are not able to stop it manually, and you are not able to create a new one with the [NosJobBot](https://t.me/NosJobBot), you can run `/killnotebook`, and then try again with `/jupyter`.
 
 To run the notebook, navigate to `Run > Run All Cells` in the menu.
 
@@ -118,6 +119,8 @@ Or will you try to create new artistic expressions using your new found skills?
 What kind of prompts can you come up with to create super detailed images of what's hiding in your imagination?
 
 We can’t wait to see your amazing projects come to life. Let’s build something incredible together!
+
+Take a look at the [Challenges](./JudgingCriteria.md#challenges) for more inspiration!
 
 ---
 
