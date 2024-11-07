@@ -94,6 +94,11 @@ In the notebook, you'll:
 - Use Nosana's GPUs to accelerate the LoRA fine-tuning process
 - Generate your own finetuned model to create custom themed images
 
+## Submission
+
+Go through the steps of saving and downloading your work, as described in [Saving your progress](#saving-your-progress)
+Afterwards read [Submission Guide](./Submission.md) for more information on how to submit your work.
+
 ## Troubleshooting
 
 - **Getting Help:**
