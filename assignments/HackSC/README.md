@@ -65,7 +65,8 @@ With this setup, you can:
 
 ### Using Telegram NosJobBot
 
-NosJobBot will provide you with the URL for your Jupyter Notebook. Here’s how to use it:
+NosJobBot will provide you with the URL for your Jupyter Notebook. 
+Here’s how to use it:
 
 1. Open [NosJobBot](https://t.me/NosJobBot) in Telegram and type `/start`.
 2. Register for the hackathon by typing `/hackathon`.
@@ -106,6 +107,20 @@ For example, you can train your model to generate a fantasy landscape or persona
 
 ---
 
+## Challenge
+
+So what's the challenge?
+
+The challenge is to create Jupyter Notebook that flexes your creative skills adjusting the python code and adjusting the parameters of the fine-tuned model.
+What kind of dataset will you use to fine-tune your model?
+How will you use this model to solve a problem?
+Or will you try to create new artistic expressions using your new found skills?
+What kind of prompts can you come up with to create super detailed images of what's hiding in your imagination?
+
+We can’t wait to see your amazing projects come to life. Let’s build something incredible together!
+
+---
+
 ## Submission
 
 Once you’ve completed your work, follow the steps below to submit your project:
@@ -139,6 +154,5 @@ If you encounter any issues:
 
 ---
 
-We can’t wait to see your amazing projects come to life. Let’s build something incredible together!
 
 
