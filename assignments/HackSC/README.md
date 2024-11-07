@@ -1,20 +1,28 @@
-
+# HackSC x Nosana Hackathon
 
 ## Introduction
 
-Machine Learning is on fire with the rise of generative AI technologies! 
-In this workshop, we'll learn how to fine-tune an image-generation model to create personalized portraits using [Nosana](https://nosana.com/), a decentralized GPU provider specialized for AI inferencing.
+Thank you for joining the HackSC x Nosana Hackathon track.
+Machine learning is on fire with the rise of generative AI technologies!
+Today we'll be learning how to run a [Stable Diffusion model](https://en.wikipedia.org/wiki/Stable_Diffusion) with [LoRA finetuning](https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms).
 
-In this guide we will be going through how to use a Stable Diffusion model.
-We'll be doing this by running it on a Jupyter Notebook.
+We'll be doing this by running a Jupyter Notebook on the Nosana Grid.
+Nosana is a decentralized GPU provider, specially built for AI inferencing.
+But today we are using it to run Jupyter Notebooks backed with a 3090 GPU.
+So that we can run the Stable Diffusion model efficiently.
 
-What's a Jupyter Notebook you might ask?
+### Jupyter Notebook
 
+For the ones who don't know what Jupyter is.
 > Jupyter Notebook (formerly known as IPython Notebook) is an interactive web application for creating and sharing computational documents.
 
-But for something with a bit more meat, take a look at this actual [Jupyter Notebook](https://jupyterlite.github.io/demo/lab/index.html)
-As you can see there are cells, filled with either text, shell commands or code.
+Jupyter Notebooks contain cells, that are filled with text and or executable python code or shell commands.
+
 This let's you go through the step by step guide to learn the steps needed to build and run a stable Diffusion model.
+
+Here's a quick peak:
+
+![Jupyter](https://docs.nosana.io/assets/jupyter-CLXWp4Wp.gif)
 
 ## Prerequisites
 
@@ -22,21 +30,26 @@ Before you begin, ensure you have the following:
 
 - Basic understanding of Python and Machine Learning concepts.
 - [Telegram (Required)](https://telegram.org/)
-- [Git (Required)](https://git-scm.com/downloads)
+- [GitHub Account](https://github.com)
 
-For detailed instructions on how to install these dependencies please take a look at [Prerequisites.md](./Prerequisites.md) 
+### **1. Telegram**
 
+You'll need Telegram to connect with [NosJobBot](https://t.me/NosJobBot).
+We'll explain in a little bit how to use [NosJobBot](https://t.me/NosJobBot)
+
+- Go to [Telegram Downloads](https://telegram.org/).
+- Download the application for your platform (Windows, macOS, Linux, Android, or iOS).
+- Install and set up an account.
+
+### 2. GitHub
+
+You'll need GitHub to be able to submit your assignment.
+
+- Go to [GitHub.com](https://github.com) and sign up for an account.
 
 ## Getting Started
 
-The first steps.
 
-### Clone the Repository
-
-```bash
-git clone git@github.com:nosana-ci/workshop.git
-cd workshop/assignments/HackSC/
-```
 
 ### Retrieve Nosana Endpoint
 
