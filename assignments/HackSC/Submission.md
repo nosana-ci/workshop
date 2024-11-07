@@ -64,4 +64,7 @@ Don't forget to add a tittle and a description, and hit `Create pull request`.
 
 ![create pull request](./assets/create_pr.png) 
 
+When handing in your project, you will need to include:
+- `nosana_workshop.ipynb` notebook file that you downloaded.
+- Updated [README.md](./submission/README.md) in the `submission/` folder about how the work you have done.
 
