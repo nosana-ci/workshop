@@ -72,9 +72,15 @@ The NosJobBot, will now be your friend, start off:
 
 1. Start by typing `/start`
 2. Next run `/hackathon` to register
-3. Navigate to this endpoint to get started with your Jupyter Notebook.
-4. The Jupyter Notebook will only be available for 2 hours, so be wary and save your data when needed!
-5. You can copy past the included [Jupyter Notebook File](./assets/dreambooth.ipynb) into the running Jupyter instance, and work from there.
+3. After registering, we can run `/jupyter` we'll to create a new Jupyter Notebook for you to work on.
+   You'll be provided with an URL that you can navigate to, to and get started working on your project.
+4. Navigate to this endpoint to get started with your Jupyter Notebook.
+5. The Jupyter Notebook will only be available for 2 hours, so be wary and save your data when needed!
+6. Make sure you first save the notebook `File > Save Notebook`
+7. Afterwards we can download the notebook by going to `File > Download`, it will be saved as `nosana_workshop.ipynb`
+8. When running a new Jupyter instance, you can continue with your old file, by uploading it
+   - Start by going to `File > Close and Shutdown Notebook`
+   - In the files overview, click `upload`, and upload your last saved `nosana_workshop.ipynb` file
 
 ## Running Inferences
 
