@@ -51,21 +51,27 @@ You'll need GitHub to be able to submit your assignment.
 
 
 
-### Retrieve Nosana Endpoint
+## Retrieve Nosana Endpoint
 
 Instead of posting jobs directly to Nosana and paying for them, Nosana will be running the Nosana Nodes for you with a running instance of a Jupyter Notebook.
 That means you will get a URL that looks similar to the following: 
-`https://fg6kuyxth94j5pud6vnewik1e8agdtn5ngcxwzqgclnm.node.k8s.prd.nos.ci/`
-By navigating to this link, you will find a running Jupyter instance, with a 4090 GPU running in it.
-With the 4090 GPU, you will be able to run a powerful Stable Diffusion model with it, and generate magical images in seconds.
+
+```
+https://fg6kuyxth94j5pud6vnewik1e8agdtn5ngcxwzqgclnm.node.k8s.prd.nos.ci/
+```
+
+By navigating to this link, you will find a running Jupyter instance, with a 3090 GPU running with it.
+With the 3090 GPU, you will be able to run a powerful Stable Diffusion model with it, and generate images in seconds, and run the finetuning within minutes.
+
+### Telegram NosJobBot
 
 As mentioned Nosana will provide the URL to these Jupyter Notebooks.
 To do so, go to https://t.me/NosJobBot
 
 The NosJobBot, will now be your friend, start off:
 
-1. Start by typing `/register`
-2. This will provide you with your first Nosana Endpoint
+1. Start by typing `/start`
+2. Next run `/hackathon` to register
 3. Navigate to this endpoint to get started with your Jupyter Notebook.
 4. The Jupyter Notebook will only be available for 2 hours, so be wary and save your data when needed!
 5. You can copy past the included [Jupyter Notebook File](./assets/dreambooth.ipynb) into the running Jupyter instance, and work from there.
