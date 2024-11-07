@@ -76,14 +76,15 @@ The NosJobBot, will now be your friend, start off:
    You'll be provided with an URL that you can navigate to, to and get started working on your project.
 4. Navigate to this endpoint to get started with your Jupyter Notebook.
 5. The Jupyter Notebook will only be available for 2 hours, so be wary and save your data when needed!
+6. You can run the Jupyter Notebook by going to `Run > Run all Cells`
 
 ### Saving your progress
 
 1. Make sure you first save the notebook `File > Save Notebook`
 2. Afterwards we can download the notebook by going to `File > Download`, it will be saved as `nosana_workshop.ipynb`
 3. When running a new Jupyter instance, you can continue with your old file, by uploading it
-   - Start by going to `File > Close and Shutdown Notebook`
-   - In the files overview, click `upload`, and upload your last saved `nosana_workshop.ipynb` file
+   - In the files overview, click `upload`, and upload your latest saved `nosana_workshop.ipynb` file
+   - Alternatively drag and drop your latest saved `nosana_workshop.ipynb` file
 
 ## Running Inferences
 
@@ -93,6 +94,7 @@ In the notebook, you'll:
 - Configure model parameters for fine-tuning
 - Use Nosana's GPUs to accelerate the LoRA fine-tuning process
 - Generate your own finetuned model to create custom themed images
+- Play around with the prompt to generate any image in the style that you finetuned the model to!
 
 ## Submission
 
