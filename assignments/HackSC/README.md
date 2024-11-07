@@ -26,8 +26,8 @@ Here’s a sneak peek of what it looks like in action:
 Before you begin, make sure you have:
 
 - **Basic understanding of Python and machine learning concepts.**
-- **[Telegram](https://telegram.org/) (Required).**
-- **[GitHub Account](https://github.com).**
+- **[Telegram](https://telegram.org/)**
+- **[GitHub Account](https://github.com)**
 
 ### **1. Telegram**
 
@@ -120,7 +120,7 @@ What kind of prompts can you come up with to create super detailed images of wha
 
 We can’t wait to see your amazing projects come to life. Let’s build something incredible together!
 
-Take a look at the [Challenges](./JudgingCriteria.md#challenges) for more inspiration!
+Take a look at the [Challenges](./JudgingCriteria.md#6-challenges) for more inspiration!
 
 ---
 
