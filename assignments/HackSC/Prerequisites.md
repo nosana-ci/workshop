@@ -22,18 +22,6 @@ Git is essential for cloning the repository and managing code.
   git --version
   ```
 
-<!-- --- -->
-<!---->
-<!-- ### **3. Hugging Face Account** -->
-<!-- A Hugging Face account is required to access Stable Diffusion models. -->
-<!---->
-<!-- - Go to [Hugging Face](https://huggingface.co/). -->
-<!-- - Click **Sign Up** and create an account. -->
-<!-- - Verify your email to activate your account. -->
-<!-- - Once logged in, visit the [Stable Diffusion Model](https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers) page to request access. -->
-<!---->
-<!-- --- -->
-
 ### **Quick Verification**
 After completing these steps, you can verify that you have all prerequisites installed:
 ```bash
