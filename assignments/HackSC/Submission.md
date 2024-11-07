@@ -24,6 +24,7 @@ Clearly outline what each team must include in their submission:
 
 ## Submission Deadline
 
+<!-- TODO -->
 
 ### **Hackathon Submission Plan**
 
@@ -40,51 +41,33 @@ When you are ready to hand in your work, please download your Jupyter Notebook, 
 
 ![Download your Jupyter Notebook](./assets/jup_notebook_save.png)
 
+## **3. Submitting, by Pull Request**
 
+When handing in your project, you will need to include:
+- `nosana_workshop.ipynb` notebook file that you downloaded.
+- Updated [README.md](./submission/README.md) in the `submission/` folder about how the work you have done.
 
-#### **2. Submitting, by Pull Request**
+You can upload the `nosana_workshop.ipynb` file via the GitHub interface.
 
-Students will submit the entire repo.
+![GitHub Upload Interface](./assets/add_file_to_submission_repo.png)
 
-1. **Work in the `HackSC` Folder:**
-   - Make all necessary changes within the `assignments/HackSC/` folder.
-   - Update the `README.md` file inside `HackSC` to reflect your work.
+## 4. **Create a Pull Request:**
 
-2. **Stage All Changes:**
-   If you want to submit the entire repository, stage all changes:
-   ```bash
-   git add .
-   ```
+Submit a pull request to the main repository:
+- Title: `[Team Name] Full Repository Submission`
+- Description:
+   - Team name and members.
 
-3. **Commit the Changes:**
-   Commit the changes with a clear message:
-   ```bash
-   git commit -m "[Team Name] Hackathon Submission"
-   ```
+This can be done via the GitHub interface, go to the main [Nosana workshop repo](https://github.com/nosana-ci/workshop/).
+There should be a `Compare & pull request` button.
 
-4. **Push the Changes:**
-   Create a new branch for submission:
-   ```bash
-   git checkout -b team-name-submission
-   git push origin team-name-submission
-   ```
+![Compare and Init PR](./assets/compare_and_pr.png)
 
-5. **Create a Pull Request:**
-   Submit a pull request to the main repository:
-   - Title: `[Team Name] Full Repository Submission`
-   - Description:
-     - Team name and members.
-     - Mention that the submission includes the entire repository, with the primary work in the `HackSC` folder.
+Afterwards we need to double check that we are indeed trying to merge with the correct repo ([Nosana workshop repo](https://github.com/nosana-ci/workshop/)).
+We also need to make sure we are trying to merge the correct branches!
+Don't forget to add a tittle and a description, and hit `Create pull request`.
 
----
-
-### **Best Practices for Students**
-- **Commit Frequently:**
-  Commit progress regularly to track changes and avoid losing work.
-- **Focus on the `HackSC` Folder:**
-  Even when submitting the entire repository, make it clear that your primary work is in the `HackSC` folder.
-- **Use a `.gitignore` File (Optional):**
-  Add a `.gitignore` file to avoid uploading unnecessary files (e.g., large datasets or temporary files).
+![create pull request](./assets/create_pr.png) 
 
 ---
 
@@ -94,7 +77,8 @@ Students will submit the entire repo.
   - Project name.
   - Team members.
   - Instructions for running the code.
+  - What problem are you trying to solve
+  - How did you utilize what you learned during this hackathon in a creative way?
+  - What were the major challenges in completing this track?
+  - What was a highlight during this track?
 
----
-
-Would you like help creating a pre-configured `.gitignore` file or a `README.md` template for students?
