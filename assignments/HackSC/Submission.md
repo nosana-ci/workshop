@@ -4,8 +4,11 @@ Here you will find details on how to submit your project for the HackSC hackatho
 
 ## Required Submission Components
 
+When handing in your project, you will need to include:
+- `nosana_workshop.ipynb` notebook file that you downloaded.
+- Updated [README.md](./submission/README.md) in the `submission/` folder about how the work you have done.
+
 ### **Post-Submission Verification**
- 
 
 Clearly outline what each team must include in their submission:
 
@@ -68,7 +71,9 @@ Don't forget to add a tittle and a description, and hit `Create pull request`.
 
 ![create pull request](./assets/create_pr.png) 
 
-When handing in your project, you will need to include:
-- `nosana_workshop.ipynb` notebook file that you downloaded.
-- Updated [README.md](./submission/README.md) in the `submission/` folder about how the work you have done.
+## 5. **Congratulations!**
+
+You've submitted your assignment, go and touch grass!
+
+
 
