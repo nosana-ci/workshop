@@ -49,10 +49,10 @@ A GitHub account is necessary for submitting your project.
 ### Retrieve Nosana Endpoint
 
 Nosana simplifies your workflow by providing ready-to-use Jupyter Notebooks with access to a 3090 GPU. 
-Instead of setting everything up manually, you'll receive a URL like this:
+Instead of setting everything up manually, you'll receive a URL similar to this one.
 
 ```
-https://fg6kuyxth94j5pud6vnewik1e8agdtn5ngcxwzqgclnm.node.k8s.prd.nos.ci/
+https://<nos_job_id>.node.k8s.prd.nos.ci/
 ```
 
 By navigating to this link, you’ll access a fully functional Jupyter Notebook environment. 
@@ -73,7 +73,7 @@ Here’s how to use it:
 3. To create a Jupyter Notebook instance, type `/jupyter`.  
    - You’ll receive a unique URL to access your notebook.
 4. Open the URL and start working on your project.
-5. **Important:** Your notebook instance will be active for only **2 hours**, so save your work regularly!
+5. **Important:** Your notebook instance will be active for only **2 hours**, so save your work regularly! The [NosJobBot](https://t.me/NosJobBot) will send a message 10 minutes before your notebook powers down. So keep an eye on your Telegram!
 6. **Advisory:** If your notebook fails, and you are not able to stop it manually, and you are not able to create a new one with the [NosJobBot](https://t.me/NosJobBot), you can run `/killnotebook`, and then try again with `/jupyter`.
 
 To run the notebook, navigate to `Run > Run All Cells` in the menu.
