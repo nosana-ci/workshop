@@ -1,0 +1,28 @@
+{
+  "version": "0.1",
+  "type": "container",
+  "meta": {
+    "trigger": "cli"
+  },
+  "ops": [
+    {
+      "type": "container/run",
+      "id": "jupyter-notebook",
+      "args": {
+        "cmd": [
+          "jupyter",
+          "notebook",
+          "--ip=0.0.0.0",
+          "--port=8888",
+          "--no-browser",
+          "--allow-root",
+          "--NotebookApp.token=''",
+          "--NotebookApp.password=''"
+        ],
+        "expose": 8888,
+        "image": "docker.io/nosana/nosana_workshop:0.0.2",
+        "gpu": true
+      }
+    }
+  ]
+}
