@@ -1,5 +1,7 @@
 # HackSC x Nosana Hackathon
 
+![Nosana x HackSC](./assets/combined_nosana_hacksc.png)
+
 ## Introduction
 
 Thank you for joining the HackSC x Nosana Hackathon track.  
